@@ -3,11 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("This code reads 2 digits from os.Stdin and writes their sum and sub to os.Stdout\na: ")
+	fmt.Print("This code reads 2 digits from os.Stdin and writes their sum and sub and multiplication to os.Stdout\na: ")
 	var a, b int
 	fmt.Scanf("%d", &a)
 	fmt.Print("b: ")
 	fmt.Scanf("%d", &b)
 	fmt.Println("Sum: ", a+b)
 	fmt.Println("Sub: ", a-b)
+  fmt.Println("Multiplication: ", a*b)
 }
